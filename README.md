@@ -144,12 +144,6 @@ El sensor TCS34725 utiliza el protocolo de comunicación I2C, lo cual simplifica
 
 ### Fotografías del Hardware
 
-[INSERTAR AQUI FOTO DEL HARDWARE COMPLETO ENSAMBLADO]
-
-[INSERTAR AQUI FOTO DEL CABLEADO EN DETALLE]
-
-[INSERTAR AQUI FOTO DEL CARRO TERMINADO VISTO DESDE ARRIBA]
-
 ---
 
 ## Diseño del Software
@@ -169,7 +163,6 @@ C:\proyecto\
 +-- bridge.py                <- Puente Serial <-> Streamlit
 ```
 
-[INSERTAR AQUI CAPTURA DE PANTALLA DE LA ESTRUCTURA DE CARPETAS]
 
 ### Codigo Arduino (carro_robot.ino)
 
@@ -183,7 +176,6 @@ El sketch de Arduino implementa las siguientes funcionalidades:
 
 **Modo de respaldo:** Si el sensor no es detectado al iniciar, el sistema continua operando y permite el control por Bluetooth igualmente, garantizando la funcionalidad del carro independientemente del estado del sensor.
 
-[INSERTAR AQUI CAPTURA DE PANTALLA DEL SKETCH EN ARDUINO IDE]
 
 ### Librerias de Arduino Utilizadas
 
@@ -205,8 +197,6 @@ El proyecto utiliza Python 3.11.9 con un entorno virtual ubicado en C:\proyecto\
 | PyAudio | 0.2.14 | Captura de audio del microfono |
 | ollama | Ultima disponible | Integracion con modelos de IA local |
 | requests | 2.34.2 | Comunicacion HTTP |
-
-[INSERTAR AQUI CAPTURA DE PANTALLA DEL RESULTADO DE pip list EN POWERSHELL]
 
 ---
 
@@ -258,7 +248,6 @@ El modulo HC-06 fue emparejado exitosamente con Windows mediante Bluetooth. El s
 | COM4 | Bluetooth Salida | Comunicacion principal con HC-06 |
 | COM5 | Bluetooth Entrada | Asignado automaticamente por Windows |
 
-[INSERTAR AQUI CAPTURA DE PANTALLA DEL ADMINISTRADOR DE DISPOSITIVOS MOSTRANDO LOS PUERTOS COM]
 
 ---
 
@@ -343,7 +332,10 @@ El sistema de control por voz permite dirigir el carro mediante comandos hablado
 
 ### Videos de Funcionamiento
 
-[INSERTAR AQUI VIDEO DEL CARRO EN MOVIMIENTO CON LAS RUEDAS FUNCIONANDO]
+
+
+https://github.com/user-attachments/assets/3b6ed585-a298-403e-a988-e872d8173a84
+
 
 ---
 
