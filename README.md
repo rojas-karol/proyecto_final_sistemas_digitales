@@ -368,39 +368,6 @@ Abrir PowerShell y ejecutar el siguiente comando. Dejar esta ventana abierta dur
 ollama serve
 ```
 
-### Paso 3 — Activar el Entorno Virtual
-
-Abrir una nueva ventana de PowerShell y ejecutar:
-
-```
-cd C:\proyecto
-.\venv\Scripts\activate
-```
-
-### Paso 4 — Ejecutar la Aplicacion Streamlit
-
-Con el entorno virtual activo, ejecutar:
-
-```
-streamlit run app.py
-```
-
-El navegador se abrira automaticamente en http://localhost:8501
-
-### Paso 5 — Operar la Aplicacion
-
-```
-1. Verificar que el carro este encendido (bateria conectada)
-2. El dashboard mostrara el color detectado en tiempo real
-3. Usar el chatbot para consultar informacion sobre el proyecto
-4. Usar el control por voz para mover el carro:
-   - Decir "Arriba"     para avanzar
-   - Decir "Abajo"      para retroceder
-   - Decir "Derecha"    para girar a la derecha
-   - Decir "Izquierda"  para girar a la izquierda
-   - Decir "Detener"    para detener el carro
-```
-
 ---
 
 ## Resultados y Pruebas
